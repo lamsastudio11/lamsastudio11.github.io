@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lamsa Studio | Résumés, Slides, CV &amp; Design</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@400;600;800&family=Tajawal:wght@500&display=swap">
+<style>
+:root{--bg:#fff7ef;--surface:#ffffff;--ink:#2b1b3d;--muted:#6b5a7a;--pink:#ff5c93;--yellow:#ffd25e;--lav:#cdbcff;--mint:#8fe6cb;--peach:#ffb392;--sky:#9fd8ff;--on:#2b1b3d;--line:#2b1b3d;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root{--bg:#1d1228;--surface:#2a1b3a;--ink:#fff1f6;--muted:#d1bfdc;--line:#fff1f6}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 18px/1.65 "Nunito",system-ui,sans-serif}
+.wrap{max-width:680px;margin:0 auto;padding:0 20px}
+.ar{font-family:"Tajawal",sans-serif;font-size:14px;color:var(--muted)}
+.hero{padding:44px 0 30px;text-align:center}
+.logo{font:800 clamp(52px,16vw,92px)/1 "Baloo 2",sans-serif;margin:0;letter-spacing:-.02em}
+.logo i{font-style:normal;color:var(--pink)}
+.sub{font:600 22px/1.35 "Baloo 2",sans-serif;margin:10px auto 6px;max-width:22ch}
+.stickers{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:20px 0 26px}
+.stickers span{padding:6px 14px;border-radius:999px;font-weight:800;font-size:15px;color:var(--on);border:2px solid var(--line)}
+.stickers span:nth-child(1){background:var(--yellow);transform:rotate(-3deg)}
+.stickers span:nth-child(2){background:var(--mint);transform:rotate(2deg)}
+.stickers span:nth-child(3){background:var(--lav);transform:rotate(-2deg)}
+.stickers span:nth-child(4){background:var(--peach);transform:rotate(3deg)}
+.btn{display:inline-block;background:var(--pink);color:#fff;border:2px solid var(--line);border-radius:999px;padding:14px 32px;font:800 19px "Baloo 2",sans-serif;text-decoration:none;cursor:pointer;box-shadow:4px 4px 0 var(--line)}
+.btn:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--line)}
+:focus-visible{outline:3px solid var(--pink);outline-offset:3px}
+h2{font:800 32px/1.15 "Baloo 2",sans-serif;margin:0 0 6px}
+section{padding:26px 0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:16px}
+.card{border:2px solid var(--line);border-radius:24px;padding:18px 16px;color:var(--on);box-shadow:4px 4px 0 var(--line)}
+.card .e{font-size:30px;display:block;line-height:1.2}
+.card b{display:block;font:800 19px/1.2 "Baloo 2",sans-serif;margin:6px 0 2px}
+.card small{font-size:15px;line-height:1.35;display:block}
+.c1{background:var(--yellow)}.c2{background:var(--lav)}.c3{background:var(--mint)}.c4{background:var(--peach)}.c5{background:var(--sky)}.c6{background:#ffc2d9}.c7{background:#c9f2a6}.c8{background:#ffe0a3}
+.steps{display:grid;gap:12px;margin-top:14px}
+.step{display:flex;gap:14px;align-items:center;background:var(--surface);border:2px solid var(--line);border-radius:20px;padding:14px 18px}
+.step span{font-size:28px}
+form{background:var(--surface);border:2px solid var(--line);border-radius:28px;padding:22px;display:grid;gap:18px;box-shadow:6px 6px 0 var(--pink);margin-top:14px}
+.f{display:grid;gap:8px}
+.f>b{font:800 18px "Baloo 2",sans-serif}
+input[type=text],textarea{font:600 18px "Nunito",sans-serif;padding:13px 16px;border:2px solid var(--line);border-radius:16px;background:var(--bg);color:var(--ink);width:100%}
+textarea{min-height:100px;resize:vertical}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips label{cursor:pointer}
+.chips input{position:absolute;opacity:0;pointer-events:none}
+.chips span{display:inline-block;padding:9px 15px;border:2px solid var(--line);border-radius:999px;font-weight:800;font-size:16px;background:var(--bg)}
+.chips input:checked+span{background:var(--yellow);color:#2b1b3d;transform:rotate(-2deg)}
+.chips input:focus-visible+span{outline:3px solid var(--pink);outline-offset:2px}
+.err{color:var(--pink);font-weight:800;font-size:15px;min-height:22px;margin:0}
+.note{color:var(--muted);font-size:15px;text-align:center;margin:0}
+footer{padding:30px 0 96px;text-align:center;color:var(--muted);font-size:15px}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--mint);color:#2b1b3d;border:2px solid var(--line);border-radius:999px;padding:12px 20px;font:800 17px "Baloo 2",sans-serif;text-decoration:none;box-shadow:3px 3px 0 var(--line)}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+<h1 class="logo">Lamsa<i>.</i>Studio</h1>
+<p class="ar" lang="ar" dir="rtl">لمسة ستوديو</p>
+<p class="sub">Tes études et tes projets, en version jolie et organisée</p>
+<div class="stickers"><span>Résumés</span><span>Slides</span><span>CV</span><span>Design</span></div>
+<a class="btn" href="#order">Je commande</a>
+</header>
+
+<section>
+<h2>Nos services</h2>
+<div class="grid">
+<div class="card c1"><span class="e">📝</span><b>Résumés &amp; fiches</b><small>Des fiches de révision claires et colorées</small></div>
+<div class="card c2"><span class="e">🧠</span><b>Mind maps</b><small>Des cartes mentales pour tout retenir</small></div>
+<div class="card c3"><span class="e">🎞️</span><b>PowerPoint</b><small>Des présentations pro qui font bonne impression</small></div>
+<div class="card c4"><span class="e">📑</span><b>Mise en forme</b><small>Rapports de stage, mémoires, devoirs</small></div>
+<div class="card c5"><span class="e">💼</span><b>CV &amp; lettres</b><small>Un CV qui donne envie de t’appeler</small></div>
+<div class="card c6"><span class="e">🎨</span><b>Design</b><small>Flyers, menus, invitations, affiches</small></div>
+<div class="card c7"><span class="e">🔎</span><b>Recherche</b><small>Sources fiables et bibliographie propre</small></div>
+<div class="card c8"><span class="e">📱</span><b>Réseaux sociaux</b><small>Posts, stories et idées de contenu</small></div>
+</div>
+</section>
+
+<section>
+<h2>Comment ça marche ?</h2>
+<div class="steps">
+<div class="step"><span>✍️</span><div>Tu remplis la commande ci-dessous.</div></div>
+<div class="step"><span>💬</span><div>On valide le prix et le délai sur WhatsApp.</div></div>
+<div class="step"><span>🎁</span><div>Tu reçois ton travail relu et prêt à l’emploi.</div></div>
+</div>
+</section>
+
+<section id="order">
+<h2>Ma commande</h2>
+<p class="ar" lang="ar" dir="rtl">اطلبي خدمتك هنا</p>
+<form id="f" novalidate>
+<div class="f"><b>Ton prénom</b><input type="text" id="n" autocomplete="given-name" placeholder="Ex : Sara"></div>
+<div class="f"><b>Quel service ?</b>
+<div class="chips" id="s">
+<label><input type="radio" name="s" value="Résumé / fiche de révision"><span>📝 Résumé</span></label>
+<label><input type="radio" name="s" value="Mind map"><span>🧠 Mind map</span></label>
+<label><input type="radio" name="s" value="PowerPoint"><span>🎞️ PowerPoint</span></label>
+<label><input type="radio" name="s" value="Mise en forme de rapport"><span>📑 Rapport</span></label>
+<label><input type="radio" name="s" value="CV / lettre de motivation"><span>💼 CV</span></label>
+<label><input type="radio" name="s" value="Design (flyer, menu, invitation...)"><span>🎨 Design</span></label>
+<label><input type="radio" name="s" value="Recherche documentaire"><span>🔎 Recherche</span></label>
+<label><input type="radio" name="s" value="Réseaux sociaux"><span>📱 Réseaux</span></label>
+<label><input type="radio" name="s" value="Autre"><span>✨ Autre</span></label>
+</div></div>
+<div class="f"><b>Pour quand ?</b><input type="text" id="d" placeholder="Ex : vendredi soir"></div>
+<div class="f"><b>Dis-nous tout</b><textarea id="t" placeholder="Matière, nombre de pages, langue, style souhaité..."></textarea></div>
+<p class="err" id="e" role="alert"></p>
+<button class="btn" type="submit">Envoyer sur WhatsApp</button>
+<p class="note">WhatsApp s’ouvre avec ton message prêt. Tu peux le modifier avant d’envoyer.</p>
+</form>
+</section>
+</main>
+<footer>Lamsa Studio · Fait avec soin <span class="ar" lang="ar">· لمسة</span></footer>
+<a class="fab" id="w" href="#" target="_blank" rel="noopener">💬 WhatsApp</a>
+
+<script>
+var WA_NUMBER = "212690066222";
+var base = "https://wa.me/" + WA_NUMBER;
+document.getElementById("w").href = base;
+document.getElementById("f").addEventListener("submit", function (ev) {
+  ev.preventDefault();
+  var n = document.getElementById("n").value.trim();
+  var r = document.querySelector('input[name="s"]:checked');
+  var d = document.getElementById("d").value.trim();
+  var t = document.getElementById("t").value.trim();
+  var e = document.getElementById("e");
+  if (!n || !r) { e.textContent = "Ajoute ton prénom et choisis un service."; return; }
+  e.textContent = "";
+  var msg = "Bonjour Lamsa Studio ✨\nPrénom : " + n + "\nService : " + r.value + "\nDélai : " + (d || "non précisé") + "\nDétails : " + (t || "-");
+  window.open(base + "?text=" + encodeURIComponent(msg), "_blank");
+});
+</script>
+</body>
+  </html>
